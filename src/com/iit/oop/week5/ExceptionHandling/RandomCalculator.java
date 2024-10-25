@@ -1,4 +1,4 @@
-package com.iit.oop.week5;
+package com.iit.oop.week5.ExceptionHandling;
 
 import java.util.Scanner;
 

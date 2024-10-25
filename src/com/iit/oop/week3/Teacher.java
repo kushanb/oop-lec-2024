@@ -2,6 +2,8 @@ package com.iit.oop.week3;
 
 public class Teacher extends Person {
     private double salary;
+    public static final String CLASS_NAME = "Teacher";
+
 
     /**
      * Constructor for the teacher class
