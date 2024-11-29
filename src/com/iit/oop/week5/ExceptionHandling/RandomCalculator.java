@@ -20,6 +20,19 @@ public class RandomCalculator {
             System.out.println("An unknown error occurred");
         }
 
+        try {
+            calculateNumbers(a, b);
+        } catch (Exception e) {
+            System.out.println("");
+        }
 
+
+    }
+
+    public static void calculateNumbers(int a, int b) throws Exception {
+        if (a == b) {
+            throw new EqualNumberException("A and B should not be equal");
+        }
+        System.out.println("A + B = " + (a+b));
     }
 }
