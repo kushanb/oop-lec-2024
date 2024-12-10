@@ -53,6 +53,10 @@ public class BankAccount {
         return this.balance;
     }
 
+    public void setBalance(double balance) {
+        this.balance = balance;
+    }
+
     public static int getNumberOfAccounts() {
         return numberOfAccounts;
     }
